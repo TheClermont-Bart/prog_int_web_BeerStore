@@ -1,4 +1,4 @@
-#NavBar  {background-color: white; text-align: right;}
+#NavBar  {background-color: white; text-align: center;padding-left: 100px;color: #000;height: 8vh;}
 a:hover {font-size: larger;}
 
 
@@ -7,15 +7,50 @@ h1, a {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CRSV" 0.5,
-    "ELSH" 0,
-    "ELXP" 0,
-    "SZP1" 0,
-    "SZP2" 0,
-    "XPN1" 0,
-    "XPN2" 0,
-    "YPN1" 0,
-    "YPN2" 0;
+  padding: 40px;
 }
+
+.slide {
+  height: 50vh;     /* 30% de la hauteur de l'écran */
+  width: 100%;      /* pleine largeur */
+  object-fit: cover; /* pour éviter les déformations */
+  display: none;     /* géré par ton JS */
+}
+
+.butContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.grosBut {
+  width: 50vw;
+  height: 300px;
+}
+
+.grosBut img {
+  width: 100%;
+  height: 280px;
+  display: block;
+}
+
+.contact {
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: auto;
+}
+
+footer {
+  background-image: url('Assets/bckg-footer.jpg');
+  height: 15vh;
+}
+
+.fb {
+  position: absolute;
+  right: 0;
+  padding-right: 10px;
+}
+
+
