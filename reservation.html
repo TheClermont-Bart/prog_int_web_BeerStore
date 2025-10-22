@@ -18,7 +18,60 @@
     </section>
 
 
-
+    <h3>A propo de la reservations</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis distinctio autem molestias, rerum illo deleniti officia? Quidem voluptatem cupiditate tempore tempora omnis expedita voluptates quasi, cumque sunt, nisi quos explicabo?</p>
+    
+    <section id="reservation">
+        <div>
+            <label for="NumberOfPeople">Nombre de personnes:</label>
+            <input type="number" id="NumberOfPeopleInput" min="1" max="8">
+        </div>
+        <div>
+            <label for="Name">Prenom et nom</label>
+            <input type="text" id="Name">
+        </div>
+        <div>
+            <label for="phone">
+            Entrer votre numero de telephone:<br/>
+            <small>Format: 123-456-7890</small>
+            </label>
+            <input
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required />
+        </div>
+        <div>
+            <label for="email">Entrez votre courriel:</label>
+            <input type="email" id="email" pattern=".+@example\.com" size="30" required />
+        </div>
+        <div>
+            <label for="Date">Date de reservation:</label>
+            <input
+            type="date"
+            id="ReservationDate"
+            name="DateReservation"
+            value="2018-07-22"
+            min="2025-01-01"
+            max="2026-12-31" />
+        </div>
+        <div>
+            <label for="appointment">Heure de reservation:</label>
+            <input
+            type="time"
+            id="appointment"
+            name="appointment"
+            min="09:00"
+            max="18:00"
+            required />
+            <small>Heure d'ouverture sont entre 9am et 18pm</small>
+        </div>
+        
+        <div>
+            <input type="button" value="Confirmation">
+        </div>
+    </section>
 
 
 
