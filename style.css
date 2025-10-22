@@ -7,3 +7,23 @@
     background-color: pink;
     font-display: black ;
 }
+h6 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+.divClass{
+    background-color: brown;
+    font-weight: bolder;
+    text-align: center;
+}
+.VenteImage{
+    display: block;
+    padding: 12px 12px;
+    color:rgb(0, 0, 0);
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: top;
+}
