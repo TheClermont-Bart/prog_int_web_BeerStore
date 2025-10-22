@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <title>Ventes</title>
 </head>
 <body>
+    <div class="divClass">
+        <h1>A ENLEVER</h1>
+    </div>
     <section id = "header">
-    <h6>menu</h6>
+    <h6>Menu</h6>
     <a href=index.html><img src="Assets/logo1.png" height="200" width="200" alt="Beer Logo"></a>
     <strong><a href=detaillants.html>Detaillants</a></strong>
     <strong><a href=inventaire.html>Inventaire</a></strong>
@@ -16,6 +22,35 @@
     <strong><a href=reservations.html>Reservation</a></strong>
     <strong><a href=panier.html>Panier</a></strong>
     <strong><a href=Compte.html>Compte</a></strong>
+    </section>
+    <span id = "searchButton">
+        <label for="Search">Looking For:</label>
+        <input type="search" id="site-search" name="q"/>
+        <button>Drink</button>
+    </span>
+    <div class="categorie">
+        <ul>Categorie
+            <li><input type="checkbox">Blonde</li>
+            <li><input type="checkbox">Rousse</li>
+            <li><input type="checkbox">IPA</li>
+            <li><input type="checkbox">Fruite</li>
+        </ul>
+    </div>
+    <p>Price Range:</p>
+    <div>
+        <input type="range" id="PriceRange" name="Prix" min="0$" max="100$" />
+        <label for="Price">Prix</label>
+    </div>
+   
+    <section id = categorie>
+        
+        <div class="VenteImage">
+            <h5>Blonde<a href = ###><img src="Assets/beer200x200.png" alt="Beer placeHolder"></a></h5>
+            <h5>Brune<a href = ###><img src="Assets/beer200x200.png" alt="Beer placeHolder"></a></h5>
+            <h5>Rousse<a href = ###><img src="Assets/beer200x200.png" alt="Beer placeHolder"></a></h5>
+            <h5>IPA<a href = ###><img src="Assets/beer200x200.png" alt="Beer placeHolder"></a></h5>
+            <h5>Fruite<a href = ###><img src="Assets/beer200x200.png" alt="Beer placeHolder"></a></h5>
+        </div>
     </section>
     <footer id="footer">
         <img src="Assets/logo-noir150.png" alt="logo noir">
