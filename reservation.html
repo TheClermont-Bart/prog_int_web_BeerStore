@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+</head>
+<body>
+    <section>
+        <h6>menu</h6>
+        <a href=index.html><img src="Assets/logo1.png" height="200" width="200" alt="Beer Logo"></a>
+        <strong><a href=detaillants.html>Detaillants</a></strong>
+        <strong><a href=inventaire.html>Inventaire</a></strong>
+        <strong><a href=apropos.html>A Propos</a></strong>
+        <strong><a href=reservations.html>Reservation</a></strong>
+        <strong><a href=panier.html>Panier</a></strong>
+        <strong><a href=Compte.html>Compte</a></strong>
+    </section>
+
+
+    <h3>A propo de la reservations</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis distinctio autem molestias, rerum illo deleniti officia? Quidem voluptatem cupiditate tempore tempora omnis expedita voluptates quasi, cumque sunt, nisi quos explicabo?</p>
+    
+    <section id="reservation">
+        <div>
+            <label for="NumberOfPeople">Nombre de personnes:</label>
+            <input type="number" id="NumberOfPeopleInput" min="1" max="8">
+        </div>
+        <div>
+            <label for="Name">Prenom et nom</label>
+            <input type="text" id="Name">
+        </div>
+        <div>
+            <label for="phone">
+            Entrer votre numero de telephone:<br/>
+            <small>Format: 123-456-7890</small>
+            </label>
+            <input
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required />
+        </div>
+        <div>
+            <label for="email">Entrez votre courriel:</label>
+            <input type="email" id="email" pattern=".+@example\.com" size="30" required />
+        </div>
+        <div>
+            <label for="Date">Date de reservation:</label>
+            <input
+            type="date"
+            id="ReservationDate"
+            name="DateReservation"
+            value="2018-07-22"
+            min="2025-01-01"
+            max="2026-12-31" />
+        </div>
+        <div>
+            <label for="appointment">Heure de reservation:</label>
+            <input
+            type="time"
+            id="appointment"
+            name="appointment"
+            min="09:00"
+            max="18:00"
+            required />
+            <small>Heure d'ouverture sont entre 9am et 18pm</small>
+        </div>
+        
+        <div>
+            <input type="button" value="Confirmation">
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <img src="Assets/logo-noir150.png" alt="logo noir">
+        <strong>287 des Érables, Neuville (QC) G0A 2R0 | 418 909-0675 | <a href="modalites.html">Modalités et conditions</a></strong>
+        <a href="https://www.facebook.com"><img src="Assets/fb-noir.png" height="100" width="100" alt="facebook"></a>
+    </footer>
+</body>
+</html>
