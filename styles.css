@@ -1,5 +1,17 @@
-#NavBar  {background-color: white; text-align: center;padding-left: 100px;color: #000;height: 8vh;}
-a:hover {font-size: larger;}
+#NavBar  {
+  background-color: white; 
+  text-align: center;
+  padding-left: 100px;
+  margin-right: 50px;
+  color: #000;
+  height: 8vh;}
+
+a:hover {
+  font-size: larger;}
+
+.dropdown-item{
+  font-size: medium;
+}
 
 
 h1, a {
@@ -8,6 +20,7 @@ h1, a {
   font-weight: <weight>;
   font-style: normal;
   padding: 40px;
+  text-decoration: none;
 }
 
 .slide {
@@ -16,6 +29,7 @@ h1, a {
   object-fit: cover; /* pour éviter les déformations */
   display: none;     /* géré par ton JS */
 }
+
 
 .butContainer {
   display: flex;
@@ -27,12 +41,12 @@ h1, a {
   width: 50vw;
   height: 300px;
 }
-
 .grosBut img {
   width: 100%;
   height: 280px;
   display: block;
 }
+
 
 .contact {
   color: white;
@@ -44,7 +58,7 @@ h1, a {
 
 footer {
   background-image: url('Assets/bckg-footer.jpg');
-  height: 15vh;
+  height: 20vh;
 }
 
 .fb {
