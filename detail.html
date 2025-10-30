@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Detail</title>
+    <link rel="stylesheet" type="text/css" href="detail.css">
 </head>
 <body>
     <header>
@@ -16,15 +17,21 @@
     <strong><a href=panier.html>Panier</a></strong>
     <strong><a href=Compte.html>Compte</a></strong>
     </header>
-    <h2>ObjectName</h2>
-    <section>
+    <h2 class="ObjectName">ObjectName</h2>
+    <section class="container">
         <img src="Assets/beer400x400.png" alt="ItemSelectionner">
-        <div>
-            <p>Price:</p>
+        <div class="details">
             <p>TypeOfBeer:</p>
-            <p>QuantityInStock:</p>
-            <p></p>
-        </div>
+            <p>Quantity:</p>
+            <input type="number" min="0" max= "10">
+            <p>Price:</p>
+            <div>
+                <h1>Description</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo asperiores, voluptatum placeat corporis adipisci molestiae commodi facere officia libero voluptates dolore excepturi est unde? Ullam voluptatum eum magni at laborum.</p>
+            </div>
+            <input type="button" value="Ajout au panier">
+         </div>
+
     </section>
 
 
