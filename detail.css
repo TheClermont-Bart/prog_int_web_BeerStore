@@ -1,16 +1,23 @@
 body {
   font-family: 'Poppins', sans-serif; 
+  background-image: url(Assets/motif.png);
+  background-repeat: repeat;
+}
+#logo{
+  border: 10px solid black; 
+  border-radius: 20px ;
 }
 .container {
   display: flex;
   flex-direction: row;
-  border: 2px solid black; 
+  border: 15px solid black; 
   border-radius: 10px;    
   padding: 20px;          
   margin: 20px auto;      
   max-width: 800px;        
-  background-color: #ff0000; 
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);    
+  background-image: url("Assets/Wood.png"); 
+  background-repeat: repeat;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);    
 }
 
 .details{
